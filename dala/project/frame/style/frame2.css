@@ -1,0 +1,445 @@
+.page{
+    display: none;
+}
+.page.active{
+    display: block;
+}
+section{
+max-width: 1200px;
+width: 100%;
+margin-bottom: 20px;
+margin: 0 auto;
+}
+section img{
+width: 1200px;
+position: absolute; 
+}
+section h2{
+position: relative;
+color: #FFF;
+text-shadow: 0px 0px 0px rgba(89, 20, 19, 0.15), 1px 1px 4px rgba(89, 20, 19, 0.15), 6px 6px 8px rgba(89, 20, 19, 0.13), 13px 13px 11px rgba(89, 20, 19, 0.08), 24px 22px 13px rgba(89, 20, 19, 0.02), 37px 35px 14px rgba(89, 20, 19, 0.00);
+font-size: 115px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+padding-top: 90px;
+padding-left: 150px;
+letter-spacing: -3px;
+}    
+section .vase{
+width: 7px;
+left: 212px;
+top: 458px;
+}
+main{
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
+margin-top:250px;
+margin-bottom:50px;
+}
+main .container{
+display: flex;
+margin: 0 auto;
+align-items: center;
+justify-content: space-between;
+
+}
+main .container .image-container {
+position: relative;   
+}
+main .container .image-container img{
+width: 390px;
+}
+main .container .image-container .image-button1 {
+position: absolute;
+bottom: 142px;
+right: 106px;
+padding: 20px 107px;
+background-color: #686767;;
+color: #fff;
+border: none;
+cursor: pointer;
+text-transform: uppercase;
+font-size: 16px;
+}
+main .container .image-container .image-button1:hover {
+background-color: #525050;
+}
+main .container .image-container .image-button2 {
+position: absolute;
+bottom: 142px;
+right: 106px;
+padding: 20px 93px;
+background-color: #686767;;
+color: #fff;
+border: none;
+cursor: pointer;
+text-transform: uppercase;
+font-size: 16px;   
+}
+main .container .image-container .image-button2:hover {
+background-color: #525050;
+}
+main .container .image-container .image-button3 {
+position: absolute;
+bottom: 135px;
+right: 115px;
+padding: 19px 45px;
+background-color: #686767;;
+color: #fff;
+border: none;
+cursor: pointer;
+text-transform: uppercase;
+font-size: 16px;
+}
+main .container .image-container .image-button3:hover {
+background-color: #525050;
+}
+.map{
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
+}
+.map iframe{
+width: 100%;  
+}
+
+footer{
+max-width: 1200px;
+width: 100%;
+background: #525050;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0 auto;
+}
+footer menu{
+margin-top: 40px;
+margin-bottom: 40px;
+text-decoration: none;
+list-style: none;
+padding: 10px;
+cursor: pointer;
+}
+footer menu ul li{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+color: #FFF;
+text-align: right;
+font-size: 25.086px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+text-transform: uppercase;
+}
+footer .footer-contact{
+display: flex;
+flex-direction: column;
+align-items:flex-end;
+justify-content:center;
+padding: 10px;
+}
+footer .footer-contact h3{
+color: #FFF;
+text-align: right;
+font-size: 25.086px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+text-transform: uppercase;
+}
+footer .footer-contact img{
+width: 450px;
+}
+footer .footer-contact >h4{
+color: #686767;
+text-align: right;
+font-size: 24.186px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+section{
+max-width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 60px;
+}
+section img{
+position: absolute;
+width: 700px;
+padding: 5px;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+section h2{
+position: relative;
+color: #FFF;
+text-shadow: 0px 0px 0px rgba(89, 20, 19, 0.15), 1px 1px 4px rgba(89, 20, 19, 0.15), 6px 6px 8px rgba(89, 20, 19, 0.13), 13px 13px 11px rgba(89, 20, 19, 0.08), 24px 22px 13px rgba(89, 20, 19, 0.02), 37px 35px 14px rgba(89, 20, 19, 0.00);
+font-size: 60px;
+top: -70px; 
+right:190px;
+letter-spacing: 1px;
+}
+ section .vase{
+width: 14px;
+left: 156px;
+top: 380px;
+    } 
+main{
+width: 100%;
+display: flex;
+margin-top: 0px;
+
+}
+
+main .container{
+width: 90%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+main .container .image-container {
+position: relative;
+}
+main .container .image-container img{
+width: 330px;
+}
+main .container .image-container .image-button1 {
+position: absolute;
+bottom: 120px;
+right:  90px;
+padding: 15px 88px;
+font-size: 14px;
+}
+main .container .image-container .image-button2 {
+position: absolute;
+bottom: 120px;
+right:  89px;
+padding: 15px 77px;
+font-size: 14px;
+}
+
+main .container .image-container .image-button3 {
+position: absolute;
+bottom: 118px;
+right:  96px;
+padding: 15px 36px;
+font-size: 14px;
+}
+.map{
+    width: 92%;
+}
+
+footer{
+width: 92%;
+background: #525050;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+footer menu{
+display: none;
+}
+
+footer .footer-contact{
+display: flex;
+flex-direction: column;
+align-items:flex-end;
+justify-content:center;
+padding: 5px;
+width: 100%;
+}
+footer .footer-contact h3{
+color: #FFF;
+text-align: right;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+text-transform: uppercase;
+}
+footer .footer-contact img{
+width: 32%;
+}
+footer .footer-contact h4{
+color: #686767;
+text-align: right;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+text-transform: uppercase;
+}
+} 
+@media screen and (max-width: 460px) {
+section{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+section img{
+width: 400px;
+padding: 5px;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+section >h2{
+position: relative;
+color: #FFF;
+text-shadow: 0px 0px 0px rgba(89, 20, 19, 0.15), 1px 1px 4px rgba(89, 20, 19, 0.15), 6px 6px 8px rgba(89, 20, 19, 0.13), 13px 13px 11px rgba(89, 20, 19, 0.08), 24px 22px 13px rgba(89, 20, 19, 0.02), 37px 35px 14px rgba(89, 20, 19, 0.00);
+font-size: 34px;
+top: -60px; 
+right: 142px;
+letter-spacing: 0px;
+}
+section .vase{
+width: 12px;
+left: 99px;
+top: 630px;
+    } 
+main{
+width: 100%;
+display: flex;
+margin-top: 0px;
+
+}
+
+main .container{
+width: inherit;
+padding: 5px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+}
+main .container .image-container {
+position: relative;  
+
+}
+
+main .container .image-container img{
+width: 400px;
+}
+main .container .image-container .image-button1 {
+position: absolute;
+bottom: 144px;
+right: 112px;
+padding: 24px 122px;
+background-color: #686767;;
+color: #fff;
+border: none;
+cursor: pointer;
+text-transform: uppercase;
+font-size: 10px;
+
+
+}
+main .container .image-container .image-button1:hover {
+background-color: #525050;
+}
+main .container .image-container .image-button2 {
+position: absolute;
+bottom: 144px;
+right: 109px;
+padding: 24px 115px;
+background-color: #686767;;
+color: #fff;
+border: none;
+cursor: pointer;
+text-transform: uppercase;
+font-size: 10px;
+
+
+}
+main .container .image-container .image-button2:hover {
+background-color: #525050;
+}
+main .container .image-container .image-button3 {
+position: absolute;
+bottom: 144px;
+right: 118px;
+padding: 15px 100px;
+background-color: #686767;;
+color: #fff;
+border: none;
+cursor: pointer;
+text-transform: uppercase;
+font-size: 10px;
+
+
+}
+main .container .image-container .image-button3:hover {
+background-color: #525050;
+}
+
+
+.map iframe{
+display: none;
+}
+
+footer{
+width: 100%;
+background: #525050;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+footer menu{
+display: none;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+margin-top: 10px;
+margin-bottom: 10px;
+text-decoration: none;
+list-style: none;
+padding: 10px;
+cursor: pointer;
+width: 30%;
+}
+
+footer .footer-contact{
+display: flex;
+flex-direction: column;
+align-items:flex-end;
+justify-content:center;
+padding: 5px;
+width: 100%;
+}
+footer .footer-contact h3{
+color: #FFF;
+text-align: right;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+text-transform: uppercase;
+}
+footer .footer-contact img{
+width: 32%;
+}
+footer .footer-contact h4{
+color: #686767;
+text-align: right;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+
+}
